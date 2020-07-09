@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Schema di interfaccia tra la struttura record nel database e la struttura record
+nel flusso xml da importare.
+-->
+
+<!-- Interfaccia tag iniziale documento xml da importare. -->
+<root xml_tag_name="root">
+    <!-- Database su cui importare i dati. -->
+    <database engine="mysql" host="localhost" name="Agenda" user="root" pass="r007p$wd">
+        <tables xml_tag_name="">
+            <!-- Tabella su cui importare i dati. -->
+            <table name="person" xml_tag_name="">
+                <!--<records xml_tag_name="">-->
+                    <!-- Interfaccia tag struttura record. -->
+                    <record xml_tag_name="person">
+                        <!--<fields>-->
+                            <!-- Interfaccia tag struttura field. -->
+                            <field name="id" type="int" length="" pk="1" default="" 
+                                    xml_tag_name="id" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+                            
+                            <field name="cognome" type="varchar" length="50" pk="0" default="" 
+                                    xml_tag_name="cognome" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+                            
+                            <field name="nome" type="varchar" length="50" pk="0" default="" 
+                                    xml_tag_name="nome" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+
+                            <field name="indirizzo" type="varchar" length="100" pk="0" default="" 
+                                    xml_tag_name="indirizzo" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+
+                            <field name="localita" type="varchar" length="50" pk="0" default="" 
+                                    xml_tag_name="localita" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+                            
+                            <field name="appuntamento" type="varchar" length="200" pk="0" default="" 
+                                    xml_tag_name="appuntamento" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+
+                            <field name="eta" type="int" length="" pk="0" default="" 
+                                    xml_tag_name="eta" xml_tag_type="" xml_tag_length="" 
+                                    xml_tag_pk="" xml_tag_default="" />
+                        <!--</fields>-->
+                    </record>
+                <!--</records>-->
+            </table>
+        </tables>
+    </database>
+</root>

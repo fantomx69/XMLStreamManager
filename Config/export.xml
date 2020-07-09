@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Schema per la creazione dello stream xml da esportare.
+-->
+<root export="">
+    <database engine="mysql" host="localhost" name="Agenda" user="root" pass="r007p$wd" export="">
+        <table name="person" export="">
+            <person export="1">
+                <id export="1"/>
+                <cognome export="1"/>
+                <nome export="1"/>
+                <indirizzo export="1"/>
+                <localita export="1"/>
+                <appuntamento export="1"/>
+                <eta export="1"/>
+            </person>
+        </table>
+    </database>
+</root>

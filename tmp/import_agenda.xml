@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <person>
+        <id>1</id>
+        <cognome>Carafone</cognome>
+        <nome>Gianni Giuliano</nome>
+        <indirizzo>C.so Vittorio Emanuele III, 67</indirizzo>
+        <localita>Poggiofiorito</localita>
+        <appuntamento>
+        </appuntamento>
+        <eta>45</eta>
+    </person>
+    <person>
+        <id>2</id>
+        <cognome>Carafone</cognome>
+        <nome>Ettore</nome>
+        <indirizzo>Non lo so, 100</indirizzo>
+        <localita>Ortona</localita>
+        <appuntamento>
+            Appuntamento Ettore.
+            BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBbbb.
+            HHHHHHHHHHHHHhhhh.
+            WWWWWWWWWWWWWWWWWWWWWWWWWWWWWw.
+        </appuntamento>
+        <eta>53</eta>
+    </person>
+    <person>
+        <id>3</id>
+        <cognome>Carafone</cognome>
+        <nome>Concetta</nome>
+        <indirizzo>Via Camillo Finuoli</indirizzo>
+        <localita>Villa Santa Maria</localita>
+        <appuntamento>
+            Appuntamento 3 x Concetta.
+            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcc.
+            WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWww.
+            GGG.
+        </appuntamento>
+        <eta>54</eta>
+    </person>
+    <person>
+        <id>4</id>
+        <cognome>Carafone</cognome>
+        <nome>Luca</nome>
+        <indirizzo>C.so Vittorio Emanuele III, 67</indirizzo>
+        <localita>Poggiofiorito</localita>
+        <appuntamento>
+            Appuntamento Luca.
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDd.
+            KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK.
+        </appuntamento>
+        <eta>42</eta>
+    </person>
+    <person>
+        <id>5</id>
+        <cognome>Carafone</cognome>
+        <nome>Guido</nome>
+        <indirizzo>C.so Vittorio Emanuele III, 67</indirizzo>
+        <localita>Poggiofiorito</localita>
+        <appuntamento>
+            Appuntamento papà.
+            Fiera dell'elettronica a Pescara, ore 15:00.
+            YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY.
+        </appuntamento>
+        <eta>85</eta>
+    </person>
+    
+</root>

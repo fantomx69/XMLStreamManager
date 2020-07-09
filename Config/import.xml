@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Schema di interfaccia tra la struttura record nel database e la struttura record
+    nel flusso xml da importare.
+-->
+
+<root import="">
+    <database engine="mysql" host="localhost" name="Agenda" user="root" pass="r007p$wd" import="">
+        <table name="person" delete_before="" import="">
+            <record src_name="person" import="1">
+                <id type="int" length="" pk="1" default="" required="1" src_name="id" import="1"/>
+                <cognome type="string" length="50" pk="" default="" required="1" src_name="cognome" import="1"/>
+                <nome type="string" length="50" pk="" default="" required="1" src_name="nome" import="1"/>
+                <indirizzo type="string" length="100" pk="" default="" required="" src_name="indirizzo" import="1"/>
+                <localita type="string" length="50" pk="" default="" required="" src_name="localita" import="1"/>
+                <appuntamento type="string" length="200" pk="" default="" required="" src_name="appuntamento" import="1"/>
+                <eta type="int" length="" pk="" default="" required="" src_name="eta" import="1"/>
+            </record>
+        </table>
+    </database>
+</root>

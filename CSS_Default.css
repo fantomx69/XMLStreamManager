@@ -1,0 +1,113 @@
+/* 
+    Created on : 9-giu-2014, 10.41.51
+    Author     : gianni
+*/
+body {
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: #000;
+font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif;
+font-size:100%;
+text-align:center;
+}
+
+
+html, body, #container {
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+
+html>body, html>body #container {
+	height: auto;
+}
+
+
+header {
+	border-top: 5px solid #333;
+	border-bottom: 1px dotted #333;
+	height: auto;
+	line-height: 3em;
+	width:available;
+	margin:0;
+	padding:0;
+        background-color: antiquewhite;
+        display: block;
+}
+
+header h1 {
+	margin:0;
+	padding:0;
+	//float: left;
+	margin-left: 2em;
+	font-size:200%;
+	display:inline;
+	color:#f50;	
+}
+
+/*
+header h3 {
+	margin:0;
+	padding:0;
+        margin-left: 2em;
+	font-size:100%;
+	display: inline;
+	background-color: #f50;
+}
+*/
+
+form {
+//    position: absolute;
+    box-sizing: content-box; 
+    background-color: beige;
+    border-color: antiquewhite;
+    
+}
+
+
+#content {
+margin:2em auto;
+padding:0;
+background:transparent;
+border:1px solid #666;
+width:80%;
+text-align:left;
+}
+
+
+#content h2 {
+	font-size: 140%;
+	margin:0;
+	padding: 1em 1em .5em 2em;
+}
+
+
+#content p {
+	font-size: .95em;
+	line-height: 1.5em; 
+	padding: .5em;
+}
+
+
+
+footer {	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+        color: #fff;
+	height: 3em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+
+#footer p {
+	margin:0;
+	padding: 0 0 0 2em;
+	color:#fff;
+	font-size: .75em;
+}
